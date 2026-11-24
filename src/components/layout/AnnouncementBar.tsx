@@ -16,7 +16,7 @@ export default function AnnouncementBar() {
   if (!visible) return null
 
   return (
-    <div className="bg-[#46394A] text-white text-xs py-2 px-4 relative">
+    <div className="bg-gradient-to-r from-[#46394A] via-[#56344F] to-[#46394A] text-white text-xs py-2 px-4 relative">
       <div className="max-w-7xl mx-auto flex items-center justify-center gap-2">
         <span className="text-center font-medium tracking-wide">
           {announcementMessages[currentIdx]}

@@ -24,7 +24,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   const hasPrice = product.price !== undefined && !product.isSpecialtyChemical
 
   return (
-    <div className="group bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:-translate-y-1.5 hover:shadow-xl hover:border-[#DDCFE6] transition-all duration-300 flex flex-col">
+    <div className="group bg-white rounded-2xl shadow-sm border border-[#DDCFE6]/30 overflow-hidden hover:-translate-y-2 hover:shadow-xl hover:shadow-[#7D2D76]/10 hover:border-[#7D2D76]/30 transition-all duration-300 flex flex-col">
       {/* Image */}
       <Link to={`/products/${product.slug}`} className="relative overflow-hidden block">
         <div className="relative h-56 bg-[#FAF8FC] overflow-hidden">

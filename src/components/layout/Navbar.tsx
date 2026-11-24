@@ -34,7 +34,7 @@ export default function Navbar() {
   return (
     <header
       className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md' : 'bg-white border-b border-gray-100'
+        scrolled ? 'bg-white shadow-lg shadow-[#7D2D76]/5' : 'bg-white border-b border-[#DDCFE6]/30'
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

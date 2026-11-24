@@ -27,10 +27,16 @@ html {
 
 body {
   font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
-  color: #2B2430;
+  color: #46394A;
   background-color: #ffffff;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Global selection color */
+::selection {
+  background-color: #7D2D76;
+  color: white;
 }
 
 h1, h2, h3, h4, h5 {
@@ -94,7 +100,7 @@ h1, h2, h3, h4, h5 {
   background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #7D2D76;
+  background: linear-gradient(to bottom, #7D2D76, #EE6B8B);
   border-radius: 3px;
 }
 
